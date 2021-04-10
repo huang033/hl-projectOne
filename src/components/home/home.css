@@ -1,0 +1,213 @@
+div {
+  color: #fff;
+}
+.home-container {
+  width: 100%;
+  height: 100%;
+}
+.bg-video {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.bg-video video {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.home-top {
+  margin-top: 30px;
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.navlogo {
+  margin-left: 90px;
+  cursor: pointer;
+  width: 82px;
+  height: 28px;
+}
+.nav-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid transparent; */
+  display: flex;
+}
+.nav-right .ant-menu {
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+.ant-menu-horizontal {
+  border-bottom: none;
+}
+.ant-menu-horizontal > .ant-menu-item {
+  margin-right: 30px !important;
+  /* border: 1px solid blue; */
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  margin-right: 70px;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+  color: #fff;
+}
+.ant-menu-horizontal > .ant-menu-item a {
+  color: #fff;
+}
+/* .ant-menu-item.ant-menu-item-only-child.ant-menu-item-active.ant-menu-item-selected{
+  color: #fff;
+} */
+.ant-menu-item .anticon {
+  font-size: 8px;
+  position: relative;
+  top: -3px;
+  left: -3px;
+}
+.home-center {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 600px;
+  /* border: 1px solid blue; */
+  background-image: url('../../asset/img/phone.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 520px;
+}
+.home-center video {
+  z-index: -1;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.home-center-right {
+  width: 330px;
+  height: 345px;
+  /* border: 1px solid blue; */
+  position: absolute;
+  top: 300px;
+  right: 650px;
+}
+.navlogo-center {
+  width: 143px;
+  height: 50px;
+}
+.mylife {
+  white-space: nowrap;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 10px 0 0;
+}
+.home-center-bt {
+  width: 330px;
+  height: 40px;
+  margin-top: 30px;
+  /* border: 1px solid blue; */
+  display: flex;
+}
+.apple-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  /* border: 1px solid red; */
+  color: black;
+}
+.apple-center img {
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
+}
+.code {
+  width: 330px;
+  height: 160px;
+  display: flex;
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.appleCode {
+  width: 150px;
+  height: 160px;
+  margin-right: 15px;
+  padding: 20px 10px 10px 10px;
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+}
+.appleCode img,
+.anzhuoCode img {
+  width: 130px;
+  height: 130px;
+}
+.anzhuoCode {
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+  width: 150px;
+  padding: 20px 10px 10px 10px;
+  height: 160px;
+}
+.bottom{
+  width: 100%;
+  height: 120px;
+  margin-top: 100px;
+  /* border: 1px solid blue; */
+}
+.bottom-first{
+  width: 70%;
+  height: 30px;
+  display: flex;
+  margin:0 auto;
+  /* border: 1px solid blue; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.bto-items{
+  width: 25%;
+  text-align: center;
+}
+.bto-two{
+  vertical-align:bottom;
+  width: 100%;
+  /* height: 16px;
+  line-height: 16px; */
+  text-align: center;
+  /* border: 1px solid red; */
+  color: #999;
+  font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    /* margin-top: 10px; */
+}
+.gonan{
+  display: inline-block;
+    /* vertical-align: middle; */
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  /* text-align: center; */
+  vertical-align:bottom;
+  margin-left: 5px;
+}
+.btnicon{
+  width: 16px;
+  height: 16px;
+  vertical-align:bottom;
+  margin-right: 5px;
+}
