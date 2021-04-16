@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import path from '../../asset/video/bg.mp4' // 必须引入
+import path from '../../asset/video/bg.mp4' // 必须引入   333
 import phonevideo from '../../asset/video/center.mp4' // 必须引入
 import navlogo from '../../asset/img/navlogo.png' // 必须引入
 import apple from '../../asset/img/apple.svg' // 必须引入
