@@ -10,7 +10,7 @@ import anzhuoCode from '../../asset/img/anzhuo-red.png' // 必须引入
 import gonan from '../../asset/img/gonan.png' // 必须引入
 import btnicon from '../../asset/img/icon1.png' // 必须引入
  import * as antd from 'antd' // 引入antd组件  111
-//首页
+//首页 11111
 import { Menu, Dropdown } from 'antd'
 import { CaretDownOutlined } from '@ant-design/icons'
 
